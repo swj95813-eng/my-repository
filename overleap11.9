@@ -1,0 +1,71 @@
+\documentclass[]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+%\usepackage{indentfirst}
+\title{suwenjun}
+\author{dadadadada}
+\date{may 12}
+
+\begin{document}
+%图片
+now i want to share with figure \ref{fig:bbb}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth,height=0.5\textwidth]{images/aaa.png}
+    \caption{bbb}
+    \label{fig:bbb}
+\end{figure}
+
+%列表
+some fruits
+\begin{enumerate}
+    \item apple
+    \item orange
+    \item banana
+\end{enumerate}
+
+\begin{itemize}
+    \item get up
+    \item eat
+    \item wash
+\end{itemize}
+
+%表格
+\begin{table}[!ht]
+    \centering
+    \resizebox{90mm}{16mm}{
+    \begin{tabular}{c|c|c|c}
+    \hline
+        1 & aaa &AAA&111 \\
+    \hline
+         2&bbb&BBB&222 \\
+    \hline
+         3&ccc&CCC&333\\
+    \hline
+    \end{tabular}
+
+    }
+    \caption{Caption}
+    \label{tab:placeholder}
+\end{table}
+
+
+\begin{table}[!ht]
+    \centering
+    \resizebox{0.8\textwidth}{0.15\textwidth}{
+    \begin{tabular}{|l|l|l|l|}
+    \hline
+        1 & a & A & q \\ \hline
+        2 & b & B & w \\ \hline
+        3 & c & C & e \\ \hline
+        4 & d & D & r \\ \hline
+    \end{tabular}
+    }
+    \caption{1111}
+\end{table}
+
+%目录
+
+
+\end{document}
